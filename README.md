@@ -18,10 +18,10 @@ for i in $(cat module2.txt | cut -f 1 -d "/" | sort | uniq -c | awk '{ print $2 
  pip3 install streamlit
  streamlit run streamlitapplication.py
 ```
- ![slum configurator1](https://github.com/gauravcodepro/streamlit-up-application/blob/main/slurm.png)
+ ![slum configurator1](https://github.com/codecreatede/streamlit-up-application/blob/main/slurm.png)
  
  - if you leave everything empty then it will give a default configuration file. 
- ![slum configurator1](https://github.com/gauravcodepro/streamlit-up-application/blob/main/slurm1.png)
+ ![slum configurator1](https://github.com/codecreatede/streamlit-up-application/blob/main/slurm1.png)
 
 Gaurav Sablok \
 University of Potsdam \
